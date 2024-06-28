@@ -1,3 +1,5 @@
+cargo-features = ["trim-paths"]
+
 [workspace.package]
 version = "1.0.0"
 edition = "2021"
@@ -8,7 +10,6 @@ repository = "https://github.com/paradigmxyz/reth"
 exclude = [".github/"]
 
 [workspace]
-cargo-features = ["trim-paths"]
 members = [
     "bin/reth-bench/",
     "bin/reth/",
