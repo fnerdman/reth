@@ -8,6 +8,7 @@ repository = "https://github.com/paradigmxyz/reth"
 exclude = [".github/"]
 
 [workspace]
+cargo-features = ["trim-paths"]
 members = [
     "bin/reth-bench/",
     "bin/reth/",
